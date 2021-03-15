@@ -1,0 +1,18 @@
+#include "cfgFunctions.hpp"
+
+author = "shawneeo";
+briefingName = "TBD";
+onLoadName = "TBD";
+onLoadMission = "TBD";
+
+respawn = 3;
+respawnDelay = 45;
+respawnVehicleDelay = 45;
+respawnTemplatesWest[] = {"MenuPosition"};
+respawnTemplatesEast[] = {"MenuPosition"};
+respawnTemplatesGuer[] = {"MenuPosition"};
+respawnDialog = true;
+respawnOnStart = 0;
+disabledAI = 1;
+joinUnassigned = 1;
+aiKills = 1;
