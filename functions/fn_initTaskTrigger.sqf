@@ -1,6 +1,5 @@
 params["_trigger"];
 if(hasInterface) exitWith{};
-waitUntil{missionNamespace getVariable "missionInitiated"};
 
 _allUnits = allUnits inAreaArray _trigger;
 _aliveUnits = _allUnits;
