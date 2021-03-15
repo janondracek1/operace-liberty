@@ -42,7 +42,7 @@ private _unhandledScripts = [];
 {
 	if(["triggerSad", vehicleVarName _x] call BIS_fnc_inString) then {
 		private _handle = _x spawn {
-			private _subHandle = [_this] execVM getMissionPath "taskTrigger.sqf";
+			private _subHandle = [_this] execVM "taskTrigger.sqf";
 			waitUntil{scriptDone _subHandle};
 		};
 		_unhandledScripts pushBack _handle;

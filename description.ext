@@ -1,9 +1,9 @@
 #include "cfgFunctions.hpp"
 
 author = "shawneeo";
-briefingName = "TBD";
-onLoadName = "TBD";
-onLoadMission = "TBD";
+briefingName = "Jakožto členové jednotky 37. RMS jste byli povoláni do Takistánu.";
+onLoadName = "Operace Liberty";
+onLoadMission = "Operace Liberty";
 
 respawn = 3;
 respawnDelay = 45;
