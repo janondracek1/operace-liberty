@@ -37,6 +37,7 @@ _waypoint setWaypointType "SAD";
 };
 
 missionNamespace setVariable ["missionInitiated", true];
+sleep 30;
 
 private _unhandledScripts = [];
 {
