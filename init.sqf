@@ -1,1 +1,3 @@
-missionNamespace setVariable ["missionInitiated", false];
+if (isNil "missionInitiated") then {
+	missionInitiated = false;
+};
